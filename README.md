@@ -37,7 +37,8 @@ Ini adalah beberapa hal yang sedang saya gunakan dan pelajari:
 ### 📊 Statistik Aktivitas Saya di GitHub:
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hail-eric&show_icons=true&theme=solarized_dark&hide_border=true&count_private=true&include_all_commits=true" alt="B Σ N's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hail-eric&show_icons=true&theme=solarized_dark&hide_border=true" alt="B Σ N's GitHub Stats" />
+  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hail-eric&layout=compact&theme=solarized_dark&hide_border=true" alt="B Σ N's Top Languages" />
 </p>
 
