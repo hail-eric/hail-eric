@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Seorang penjelajah _**Dunia Digital**_ yang berfokus pada <i>scripting</i>, kustomisasi jaringan, dan <i>firmware development</i>.
+  Seorang penjelajah **_Dunia Digital_** yang berfokus pada <i>scripting</i>, kustomisasi jaringan, dan <i>firmware development</i>.
 </h3>
 
 <br>
