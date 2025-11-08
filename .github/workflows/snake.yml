@@ -23,8 +23,6 @@ jobs:
           github_user_name: hail-eric
           
           # Daftar output file SVG
-          # Format: {nama_file}.svg?palette={nama_palet}
-          # Palet yang tersedia: github, github-dark, github-light, ... (lengkapnya di repo snk)
           outputs: |
             dist/github-snake.svg?palette=github-dark
             dist/github-snake-light.svg?palette=github-light
@@ -35,7 +33,7 @@ jobs:
           # Token untuk otentikasi
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Direktori yang berisi file SVG (dist)
-          publish_dir: dist
+          build_dir: dist
           # Branch tujuan (akan dibuat otomatis)
           target_branch: output
           # Jaga agar branch output tetap bersih
