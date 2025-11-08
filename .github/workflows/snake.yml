@@ -30,9 +30,9 @@ jobs:
       - name: Push Generated Files to 'output' Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          # Token untuk otentikasi
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Direktori yang berisi file SVG (dist)
+          # Token untuk otentikasi (NAMA PARAMETER SUDAH DIPERBAIKI)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Direktori yang berisi file SVG (NAMA PARAMETER SUDAH DIPERBAIKI)
           build_dir: dist
           # Branch tujuan (akan dibuat otomatis)
           target_branch: output
