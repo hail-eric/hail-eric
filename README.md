@@ -14,6 +14,18 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/hail-eric">
+    <img src="https://github-readme-stats.vercel.app/api?username=hail-eric&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="Statistik GitHub" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&width=435&lines=There+are+no+coincidences;+Only+the+illusion+of+coincidences+👁️" alt="Animasi Teks" />
+</p>
+
+---
+
 ### 🔭 Fokus Saya Saat Ini:
 
 Di sinilah sebagian besar waktu saya dihabiskan:
