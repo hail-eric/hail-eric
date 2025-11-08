@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # --- TAMBAHAN PENTING ADA DI SINI ---
+    # --- PASTIKAN BAGIAN INI ADA ---
     permissions:
       contents: write  # Ini memberi izin job untuk 'menulis' ke repo Anda
     # ------------------------------------
@@ -33,7 +33,7 @@ jobs:
             dist/github-snake-light.svg?palette=github-light
             
       - name: Push Generated Files to 'output' Branch
-        # --- Diperbarui ke v4 untuk versi terbaru ---
+        # Diperbarui ke v4 untuk versi terbaru
         uses: crazy-max/ghaction-github-pages@v4
         with:
           # Token untuk otentikasi
