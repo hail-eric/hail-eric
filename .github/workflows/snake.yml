@@ -12,10 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # --- PASTIKAN BAGIAN INI ADA ---
+    # --- INI SANGAT PENTING DAN HARUS TETAP ADA ---
     permissions:
-      contents: write  # Ini memberi izin job untuk 'menulis' ke repo Anda
-    # ------------------------------------
+      contents: write
+    # -----------------------------------------------
 
     steps:
       - name: Checkout Repository
@@ -33,11 +33,10 @@ jobs:
             dist/github-snake-light.svg?palette=github-light
             
       - name: Push Generated Files to 'output' Branch
-        # Diperbarui ke v4 untuk versi terbaru
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          # Token untuk otentikasi
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # --- BARIS 'token:' SUDAH DIHAPUS DARI SINI ---
+          
           # Direktori yang berisi file SVG
           build_dir: dist
           # Branch tujuan (akan dibuat otomatis)
